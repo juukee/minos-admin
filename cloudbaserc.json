@@ -1,0 +1,21 @@
+{
+    "envId": "fscz-faca0",
+    "version": "2.0",
+    "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+    "functionRoot": "./functions",
+    "functions": [],
+    "region": "ap-shanghai",
+    "framework": {
+        "name": "minos-admin",
+        "plugins": {
+            "website": {
+                "use": "@cloudbase/framework-plugin-website",
+                "inputs": {
+                    "installCommand": "npm install --prefer-offline --no-audit --progress=false",
+                    "buildCommand": "npm run build",
+                    "outputPath": "./dist"
+                }
+            }
+        }
+    }
+}
